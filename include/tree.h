@@ -46,7 +46,7 @@ class Tree {
       perm(root->list[i], numr);
     }
   }
- 
+
  public:
   std::string operator[](int i) const {
     if (i >= der.size()) {
